@@ -12,7 +12,7 @@ while ( $seq = <STDIN> )
 		print "$1 $3 $4\n";
 		$seq = $';
 			if( $i < 99 )
-			{print "Was detected sequence with start and stop codon but the distance between them is too small! The threshold length in this program has been set at 96bp (32 amino acids)\n";}
+			{print "Sequence was detected with start and stop codon but the distance between them is too small! The threshold length in this program has been set at 96bp (32 amino acids)\n";}
 
 			if( $i >= 99 )
 			{print "There is an open reading frame (ORF)\n";}	
